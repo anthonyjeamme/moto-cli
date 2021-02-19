@@ -1,0 +1,13 @@
+export type T#SECTIONNAME# = {
+    data: {
+
+    },
+    params: {
+
+    }
+}
+
+export type T#SECTIONNAME#Props = {
+    section: T#SECTIONNAME#,
+    onChange: (section:T#SECTIONNAME#) => void
+}

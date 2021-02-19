@@ -1,0 +1,18 @@
+import React from 'react'
+import Container from '~components/Common/Container/Container'
+import { T#SECTIONNAME#Props } from './#SECTIONNAME#.types'
+
+import './#SECTIONNAME#.scss'
+
+const #SECTIONNAME# = ({ section, onChange }: T#SECTIONNAME#Props) => {
+
+	return (
+		<div className="#SECTIONNAME#">
+			<Container>
+				My section here
+			</Container>
+		</div>
+	)
+}
+
+export default #SECTIONNAME#

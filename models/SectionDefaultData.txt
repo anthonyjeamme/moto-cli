@@ -1,0 +1,12 @@
+import { T#SECTIONNAME# } from './#SECTIONNAME#.types'
+
+const #SECTIONNAME#DefaultData: T#SECTIONNAME# = {
+    data:{
+
+    },
+    params:{
+        
+    }
+}
+
+export default #SECTIONNAME#DefaultData

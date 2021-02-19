@@ -1,0 +1,13 @@
+import React from 'react'
+
+import Params from '~components/Edition/ParamsPresets/Params/Params'
+
+const #SECTIONNAME#Params = ({ params, onChange }) => {
+	return (
+		<Params className="#SECTIONNAME#Params">
+            Params here
+		</Params>
+	)
+}
+
+export default #SECTIONNAME#Params

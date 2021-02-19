@@ -1,0 +1,17 @@
+{
+	"name": "moto-cli",
+	"version": "1.0.1",
+	"description": "",
+	"main": "src/app.js",
+	"scripts": {},
+	"bin": {
+		"moto": "./src/app.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"chalk": "^4.1.0",
+		"prompts": "^2.4.0"
+	}
+}

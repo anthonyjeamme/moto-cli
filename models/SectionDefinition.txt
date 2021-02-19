@@ -1,0 +1,15 @@
+import { TMetaSection } from '~sections/common/MetaSection.types'
+import #SECTIONNAME# from './#SECTIONNAME#'
+import #SECTIONNAME#Params from './#SECTIONNAME#.params'
+import defaultData from './#SECTIONNAME#.defaultData'
+
+const #SECTIONDEFINITIONNAME#: TMetaSection = {
+	name: '#SECTIONKEBABNAME#',
+    label: '#SECTIONNAME#',
+	imagePreview: null,
+	Component: #SECTIONNAME#,
+    Params: #SECTIONNAME#Params,
+	defaultData
+}
+
+export default #SECTIONDEFINITIONNAME#
